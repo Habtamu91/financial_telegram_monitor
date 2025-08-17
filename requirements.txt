@@ -1,1 +1,49 @@
 # Python dependencies
+# Core Packages
+python==3.10.12  # Tested version
+python-dotenv==1.0.0
+
+# Web Scraping
+telethon==1.35.0
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+python-dateutil==2.8.2
+
+# Database & ORM
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+asyncpg==0.28.0
+
+# Data Transformation
+dbt-core==1.7.4
+dbt-postgres==1.7.4
+
+# Computer Vision
+ultralytics==8.1.0  # YOLOv8
+opencv-python==4.8.1.78
+pillow==10.1.0
+
+# API & Web
+fastapi==0.108.0
+uvicorn==0.25.0
+pydantic==2.5.3
+streamlit==1.29.0
+
+# Orchestration
+dagster==1.6.4
+dagster-postgres==0.20.4
+dagster-dbt==0.20.4
+
+# Testing
+pytest==8.0.2
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Utilities
+loguru==0.7.2
+tqdm==4.66.1
+pyyaml==6.0.1
