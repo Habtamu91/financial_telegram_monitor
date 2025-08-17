@@ -1,0 +1,10 @@
+# In .github/workflows/pipeline_checks.yml
+name: Data Quality Gate
+on: [push]
+jobs:
+  dbt_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install dbt-postgres
+      - run: dbt test --select tag:financial_validations
