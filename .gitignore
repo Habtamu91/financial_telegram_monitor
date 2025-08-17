@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.venv
+venv/
+ENV/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# DBT artifacts
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+dbt/.dbt/
+
+# Data directories
+/data/processed/
+/data/backups/
+!data/raw/.gitkeep  # Keep empty dir structure
+
+# Notebooks and IDE
+.ipynb_checkpoints
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependency directories
+node_modules/
+bower_components/
+.pnpm/
+
+# Log files
+*.log
+logs/
+
+# Credentials and secrets
+secrets.json
+*.key
+*.pem
+*.crt
+
+# Virtual environment
+venv/
+*.venv/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# dbt
+profiles.yml  # Never commit your profiles file!
+
+# ML models
+/fraud_detection/ml_models/*.pt
+/fraud_detection/ml_models/*.bin
+
+# Telegram session files
+*.session
+*.session-journal
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Exception: Keep these empty directories
+!.github/workflows/.gitkeep
+!.dbt/include/.gitkeep
