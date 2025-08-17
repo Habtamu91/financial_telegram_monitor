@@ -1,0 +1,12 @@
+financial_monitor:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: habte1234
+      port: 5432
+      dbname: telegram_data
+      schema: public
+      threads: 4
