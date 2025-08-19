@@ -11,7 +11,7 @@ An end-to-end data pipeline monitoring financial/medical Telegram channels for r
 - **Dagster** for orchestration
 
 ## 📂 Folder Structure
-```
+<pre>
 financial_telegram_monitor/
 ├── .github/              # CI/CD workflows
 ├── config/               # Logging and alert configurations  
@@ -24,8 +24,7 @@ financial_telegram_monitor/
 ├── Dockerfile            # Containerization  
 ├── docker-compose.yml    # Multi-service orchestration
 └── requirements.txt      # Python dependencies
-```
-
+</pre>
 ## 🚀 Quick Start
 
 ### Prerequisites
