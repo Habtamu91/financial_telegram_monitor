@@ -1,5 +1,3 @@
-Here's a comprehensive `README.md` for your project following the folder structure:
-
 ```markdown
 # Financial Telegram Monitor
 
@@ -110,8 +108,3 @@ Key features of this README:
 3. **Actionable Commands** - Copy-paste friendly setup instructions
 4. **Component Highlights** - Key features with code examples
 5. **Future-Proof** - Placeholders for expanded documentation
-
-Would you like me to:
-1. Add a specific deployment guide for AWS/Azure?
-2. Include sample API response screenshots?
-3. Add contributor guidelines section?
