@@ -13,7 +13,7 @@ __pycache__/
 venv/
 ENV/
 
-# Database files
+# Database files.
 *.db
 *.sqlite
 *.sqlite3
@@ -24,19 +24,19 @@ dbt/dbt_packages/
 dbt/logs/
 dbt/.dbt/
 
-# Data directories
+# Data directories.
 /data/processed/
 /data/backups/
 !data/raw/.gitkeep  # Keep empty dir structure
 
-# Notebooks and IDE
+# Notebooks and IDE.
 .ipynb_checkpoints
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Dependency directories
+# Dependency directories.
 node_modules/
 bower_components/
 .pnpm/
@@ -45,7 +45,7 @@ bower_components/
 *.log
 logs/
 
-# Credentials and secrets
+# Credentials and secrets.
 secrets.json
 *.key
 *.pem
